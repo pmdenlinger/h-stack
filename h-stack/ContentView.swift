@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        HStack(alignment: .top, spacing: 15) {
+            /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
+            Text("Placeholder 2")
+            Text("Placeholder 3")
+        }
     }
 }
 
